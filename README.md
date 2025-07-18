@@ -1,11 +1,6 @@
-# Automating GitHub Repository Creation with Python
+# Python DevOps Scripts
 
-This project provides a Python automation script that programmatically creates a GitHub repository named `python-datadog-monitoring-automation` with a pre-defined directory structure for Datadog monitoring scripts and configuration.
+This repo is the collection of Python scripts designed to automate routine tasks in DevOps and SRE workflows. Each script targets a specific use case to help improve reliability, reduce manual effort, and integrate with popular tools and platforms.
 
-## 🧾 What It Does
 
-The main script uses the GitHub API to:
-
-- Create a new GitHub repository on your account
-- Initialize the following structure inside the repo:
 
