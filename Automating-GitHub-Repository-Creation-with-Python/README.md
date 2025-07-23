@@ -12,15 +12,17 @@ This project contains a Python script that automates the creation of a new GitHu
 
 The script can be used to generate repositories like:
 
+```bash
 python-datadog-monitoring-automation/
 ├── config/
-│ └── secrets.yaml # Stores API keys and Slack webhook
+│   └── secrets.yaml          # Stores API keys and Slack webhook
 ├── scripts/
-│ └── monitor_checker.py # Main monitoring script
+│   └── monitor_checker.py    # Main monitoring script
 ├── logs/
-│ └── execution.log # Optional log file
+│   └── execution.log         # Optional log file
 ├── README.md
 └── requirements.txt
+```
 
 This structure is suitable for DevOps automation scripts, particularly for monitoring tools like Datadog.
 
