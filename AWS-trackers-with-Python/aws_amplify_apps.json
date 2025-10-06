@@ -1,0 +1,10 @@
+[
+    {
+        "Region": "us-east-1",
+        "AppId": "d292g87z6znux7",
+        "Name": "my-portfolio-website",
+        "ARN": "arn:aws:amplify:us-east-1:<REDACTED_ACCOUNT>:apps/d292g87z6znux7",
+        "DefaultDomain": "d292g87z6znux7.amplifyapp.com",
+        "Repository": "https://github.com/DimitryZH/my-portfolio-website"
+    }
+]

@@ -1,0 +1,209 @@
+[
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:ec2:us-east-1:<REDACTED_ACCOUNT>:security-group/sg-0440ac1f8b94b89d8",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/network-stack/8b994e80-a115-11ef-bb59-0affd2cbbc01",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "DBSecurityGroup"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:rds:us-east-1:<REDACTED_ACCOUNT>:cluster-snapshot:cdkappstack-snapshot-mydatabase1e2517db-pcrb9q1fzcgf",
+        "Type": "rds",
+        "Tags": {
+            "aws:cloudformation:stack-name": "CdkappStack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/CdkappStack/e95b0ff0-988b-11ef-9393-12b93748d3fd",
+            "aws:cloudformation:logical-id": "MyDatabase1E2517DB"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/backupandrestore-primary/3b505e90-a116-11ef-a311-0e471478119b",
+        "Type": "cloudformation",
+        "Tags": {
+            "Disaster-Recovery": "Backup-and-Restore"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:ec2:us-east-1:<REDACTED_ACCOUNT>:route-table/rtb-086c93dbfd9b56738",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/network-stack/8b994e80-a115-11ef-bb59-0affd2cbbc01",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "PublicRouteTable"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:ssm:us-east-1:<REDACTED_ACCOUNT>:parameter/cdk-bootstrap/hnb659fds/version",
+        "Type": "ssm",
+        "Tags": {
+            "aws:cloudformation:stack-name": "CDKToolkit",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/CDKToolkit/a0227090-97ae-11ef-a5c1-0afff285400f",
+            "aws:cloudformation:logical-id": "CdkBootstrapVersion"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/network-stack/8b994e80-a115-11ef-bb59-0affd2cbbc01",
+        "Type": "cloudformation",
+        "Tags": {
+            "Disaster-Recovery": "Backup-and-Restore"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:ec2:us-east-1:<REDACTED_ACCOUNT>:security-group/sg-08fe6b9abc2323199",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/network-stack/8b994e80-a115-11ef-bb59-0affd2cbbc01",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "WebServerSecurityGroup"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:ec2:us-east-1:<REDACTED_ACCOUNT>:vpc/vpc-0393feb55d7c4ae0b",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/network-stack/8b994e80-a115-11ef-bb59-0affd2cbbc01",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "VPC"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:rds:us-east-1:<REDACTED_ACCOUNT>:cluster-snapshot:cdkappstack-snapshot-mydatabase1e2517db-nqyhuapkczcg",
+        "Type": "rds",
+        "Tags": {
+            "aws:cloudformation:stack-name": "CdkappStack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/CdkappStack/15755db0-97b6-11ef-8ebc-0affdbf9fc5f",
+            "aws:cloudformation:logical-id": "MyDatabase1E2517DB"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:rds:us-east-1:<REDACTED_ACCOUNT>:cluster-snapshot:cdkappstack-snapshot-mydatabase1e2517db-838nu3rnlqzz",
+        "Type": "rds",
+        "Tags": {
+            "aws:cloudformation:stack-name": "CdkappStack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/CdkappStack/09c20540-97c0-11ef-be0a-129b5d67335f",
+            "aws:cloudformation:logical-id": "MyDatabase1E2517DB"
+        }
+    },
+    {
+        "Region": "us-east-1",
+        "ARN": "arn:aws:rds:us-east-1:<REDACTED_ACCOUNT>:subgrp:network-stack-dbsubnetgroup-pytlrpfqn6gh",
+        "Type": "rds",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:<REDACTED_ACCOUNT>:stack/network-stack/8b994e80-a115-11ef-bb59-0affd2cbbc01",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "DBSubnetGroup"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:ec2:us-west-2:<REDACTED_ACCOUNT>:subnet/subnet-0b3bcfe18f3083b68",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "PublicSubnet2"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:ec2:us-west-2:<REDACTED_ACCOUNT>:subnet/subnet-01ea85d1bf5e20574",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "PublicSubnet1"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:ec2:us-west-2:<REDACTED_ACCOUNT>:vpc/vpc-010b8879801e20d30",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "VPC"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:ec2:us-west-2:<REDACTED_ACCOUNT>:route-table/rtb-043a79ff6a04ba84f",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "PublicRouteTable"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:ec2:us-west-2:<REDACTED_ACCOUNT>:security-group/sg-0aa6f03447e4d9d25",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "DBSecurityGroup"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:ec2:us-west-2:<REDACTED_ACCOUNT>:security-group/sg-04bbcdd11c27c14cb",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "WebServerSecurityGroup"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:rds:us-west-2:<REDACTED_ACCOUNT>:subgrp:network-stack-dbsubnetgroup-vojf2dldz3tv",
+        "Type": "rds",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "DBSubnetGroup"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+        "Type": "cloudformation",
+        "Tags": {
+            "Disaster-Recovery": "Backup-and-Restore"
+        }
+    },
+    {
+        "Region": "us-west-2",
+        "ARN": "arn:aws:ec2:us-west-2:<REDACTED_ACCOUNT>:internet-gateway/igw-0704cc54d4509761c",
+        "Type": "ec2",
+        "Tags": {
+            "aws:cloudformation:stack-name": "network-stack",
+            "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-west-2:<REDACTED_ACCOUNT>:stack/network-stack/c1d94990-a116-11ef-9f9a-0a41f2f17491",
+            "Disaster-Recovery": "Backup-and-Restore",
+            "aws:cloudformation:logical-id": "InternetGateway"
+        }
+    }
+]
