@@ -38,8 +38,8 @@ kubectl logs <loadgenerator-pod-name > default_locust_test_logs.txt
 
 2. Analyzing Logs
 
-The ![analyze_locust_logs.py](analyze_locust_logs.py) script parses Locust’s text logs 
-![default_locust_test_logs.txt](default_locust_test_logs.txt) to extract endpoint-level metrics:
+The [analyze_locust_logs.py](analyze_locust_logs.py) script parses Locust’s text logs 
+[default_locust_test_logs.txt](default_locust_test_logs.txt) to extract endpoint-level metrics:
 
 Average, minimum, maximum, and median response times
 
@@ -56,12 +56,12 @@ python analyze_locust_logs.py
 
 Example output:
 
-![/default_logs_report.png](default_logs_report.png)
+![default_logs_report.png](default_logs_report.png)
 
 
 ## Code Summaries:
 
-**analyze_locust_logs.py**
+- **analyze_locust_logs.py**
 
 This script analyzes Locust performance test logs and produces summarized metrics for each API endpoint.
 It:
@@ -80,7 +80,8 @@ Top 3 most frequently requested endpoints
 
 DevOps use case: Automate post-test log analysis and integrate with CI/CD to detect regressions or performance degradation automatically.
 
-**locustfile.py**
+- **locustfile.py**
+
 This file defines realistic user workflows for testing a Kubernetes-hosted microservices application (such as an e-commerce app).
 It simulates real traffic using Locust’s FastHttpUser class and TaskSet behavior model.
 
