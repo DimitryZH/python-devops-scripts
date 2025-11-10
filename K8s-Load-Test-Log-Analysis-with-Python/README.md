@@ -1,12 +1,15 @@
 # Kubernetes Load Test Log Analysis with Python
 
 This project provides a Python-based solution for analyzing **Locust** load test logs generated during performance testing of Kubernetes microservices applications.  
-It automates log parsing and summarizes performance metrics, helping DevOps engineers identify performance bottlenecks and track system reliability over time.
+It automates log parsing and summarizes performance metrics, helping DevOps and SRE engineers identify performance bottlenecks and track system reliability over time.
 
+## Practical usecase 
+These scripts used for the project [e-commerce-observability-platform](https://github.com/DimitryZH/online-boutique-modernization/tree/main/e-commerce-observability-platform/load-tests/locust)
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
+```bash
 K8s-Load-Test-Log-Analysis-with-Python
 │
 ├── analyze_locust_logs.py # Script to parse and summarize Locust log files
@@ -15,10 +18,10 @@ K8s-Load-Test-Log-Analysis-with-Python
 ├── default_logs_report.png # Example visualization of analysis output
 └── README.md # Project documentation
 
-
+```
 ---
 
-## 🚀 Overview
+##  Overview
 
 ### 1. **Load Testing with Locust**
 
@@ -30,7 +33,7 @@ To run the test locally or inside Kubernetes:
 ```bash
 locust -f locustfile.py --headless -u 100 -r 10 -t 5m --host http://app-url
 ``` 
-or use default data from loadgenerator pod 
+In this case we used default data from loadgenerator service 
 
 ```bash
 kubectl logs <loadgenerator-pod-name > default_locust_test_logs.txt
