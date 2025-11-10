@@ -4,7 +4,9 @@ This project provides a Python-based solution for analyzing **Locust** load test
 It automates log parsing and summarizes performance metrics, helping DevOps and SRE engineers identify performance bottlenecks and track system reliability over time.
 
 ## Practical usecase 
+
 These scripts used for the project [e-commerce-observability-platform](https://github.com/DimitryZH/online-boutique-modernization/tree/main/e-commerce-observability-platform/load-tests/locust)
+
 ---
 
 ##  Project Structure
@@ -25,7 +27,7 @@ K8s-Load-Test-Log-Analysis-with-Python
 
 ### 1. **Load Testing with Locust**
 
-The included `locustfile.py` defines user behavior for a sample microservices application (such as **Online Boutique**).  
+The included [locustfile.py](locustfile.py) defines user behavior for a sample microservices application (such as **Online Boutique**).  
 It simulates realistic traffic patterns including browsing, adding products to cart, and performing checkouts.
 
 To run the test locally or inside Kubernetes:
